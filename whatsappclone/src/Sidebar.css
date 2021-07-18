@@ -1,0 +1,77 @@
+.Sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131c21;
+  /* border-right-width: 0.5px; */
+  /* border-style: groove;
+  border-color: grey;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px; */
+}
+.Header {
+  height: 60px;
+  width: 100%;
+  background-color: #2a2f32;
+  display: flex;
+  flex-direction: row;
+  border-right-width: 1px;
+  border-style: groove;
+  border-color: grey;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+  align-items: center;
+}
+.Sidebar_header_left {
+  width: 10vw;
+  display: flex;
+}
+.Sidebar_header_right {
+  width: 90vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding-right: 16px; */
+}
+.Search_Container {
+  display: flex;
+  height: 40px;
+  background-color: #131c21;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-block: 4px;
+  border-style: groove;
+  border-color: rgb(140, 140, 140);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0.5px;
+}
+.Search_bar {
+  background-color: #323739;
+  width: 90%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+.Search_input {
+  background-color: #323739;
+  border: 0ch;
+  padding-left: 30px;
+  outline-width: 0px;
+  width: 80%;
+  color: #b1b3b5;
+}
+.Sidebar_Chat_Container {
+  width: 100%;
+  flex: 1;
+  overflow: scroll;
+  overflow-x: hidden;
+}
